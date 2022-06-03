@@ -848,6 +848,10 @@
           align-items: center;
 }
 
+.main-wrapper .table-wrapper .opportunity-table .cell-wrapper .overlay-dropdown-trigger p {
+  margin: 0;
+}
+
 .main-wrapper .table-wrapper .opportunity-table .cell-wrapper .input-number-cell-container {
   position: relative;
   display: inline-block;
