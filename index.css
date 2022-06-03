@@ -25,7 +25,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: auto !important;
-  margin-right: 20px;
+  padding-right: 20px;
 }
 
 .main-wrapper .idea__profile__main__wrapper .avatar-round .avatar-photo {
