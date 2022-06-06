@@ -512,11 +512,11 @@
 }
 
 .main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
   padding: 10px;
+}
+
+.main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars tr {
+  text-align: center;
 }
 
 .main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper {
