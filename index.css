@@ -532,6 +532,7 @@
   margin: 22px;
   padding: 20px;
   position: relative;
+  min-width: 300px;
 }
 
 .main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper:hover {
