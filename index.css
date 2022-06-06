@@ -414,9 +414,9 @@
 .main-wrapper .idea__team__container .idea__team__display__wrapper {
   padding: 22px 0;
   background: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.08);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -514,6 +514,7 @@
 
 .main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars {
   padding: 10px;
+  border-collapse: collapse;
 }
 
 .main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars tr {
