@@ -579,8 +579,22 @@
   margin-left: 0 !important;
 }
 
-.main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper .avatar-round .text-container {
+.main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper .avatar-round .text-container__wrapper {
+  display: block;
+}
+
+.main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper .avatar-round .text-container__wrapper .text-container {
   margin-left: 17px;
+  text-align: start;
+}
+
+.main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper .avatar-round .text-container__wrapper .text-container h4 {
+  margin-bottom: 10px;
+}
+
+.main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper .avatar-round .text-container__wrapper .text-container p {
+  margin: 0;
+  font-size: 12px;
 }
 
 .main-wrapper .idea__team__container .idea__team__display__wrapper .idea__team__avatars .single__avatar__wrapper .avatar-round h4 {
