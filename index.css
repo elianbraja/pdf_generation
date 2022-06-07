@@ -289,13 +289,11 @@
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 32px;
-  padding-right: 0;
 }
 
 .main-wrapper .idea__details__container .problem-approach__container-inner {
   max-width: 178px;
   width: 100%;
-  margin-right: 12px;
 }
 
 .main-wrapper .idea__details__container .problem-approach__container-inner .idea__overview__header__container {
@@ -335,7 +333,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
-  margin-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
