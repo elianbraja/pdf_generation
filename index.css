@@ -862,6 +862,26 @@
           align-items: center;
 }
 
+.main-wrapper .table-wrapper .opportunity-table .cell-wrapper .validator-email-container {
+  padding: 8px 10px 8px 8px;
+  border-radius: 8px;
+  color: #736977;
+  font-size: 14px;
+  font-weight: 500;
+  height: 30px;
+  background-color: transparent;
+  border-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .main-wrapper .table-wrapper .opportunity-table .cell-wrapper .input-number-cell-container {
   position: relative;
   display: inline-block;
