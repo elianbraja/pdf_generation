@@ -1298,6 +1298,12 @@
           justify-content: flex-start !important;
 }
 
+.main-wrapper .table-wrapper .risk-plan-extras .status-column-extras {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
 .main-wrapper .table-wrapper .agreement-extras .decisionMakers-extras {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
