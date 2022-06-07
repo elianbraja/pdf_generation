@@ -1291,4 +1291,16 @@
   -webkit-transition: 0.15s ease-in-out;
   transition: 0.15s ease-in-out;
 }
+
+.main-wrapper .table-wrapper .risk-plan-extras .header-cell-wrapper {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.main-wrapper .table-wrapper .agreement-extras .decisionMakers-extras {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
 /*# sourceMappingURL=index.css.map */
