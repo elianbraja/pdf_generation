@@ -285,11 +285,10 @@
           justify-content: space-between;
   width: 100%;
   background-color: white;
-  padding: 26px 22px;
+  padding: 20px;
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.08);
   margin-top: 32px;
-  padding-right: 0;
 }
 
 .main-wrapper .idea__details__container .problem-approach__container-inner {
@@ -335,7 +334,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
-  margin-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -346,28 +344,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
-}
-
-.main-wrapper .idea__details__container .overview__display__card .overview__values__content__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-radius: 8px;
-  background-color: white;
-  position: relative;
-  height: 90%;
-  padding: 8px;
+  text-align: center;
 }
 
-.main-wrapper .idea__details__container .overview__display__card .overview__values__content__wrapper .overview__values__itemtype {
+.main-wrapper .idea__details__container .overview__display__card .overview__values__itemtype {
   text-transform: capitalize;
   font-family: "Avenir Next LT Pro";
   font-style: normal;
@@ -377,10 +360,9 @@
   text-align: center;
   letter-spacing: 0.15px;
   color: #736977;
-  margin-bottom: 20px;
 }
 
-.main-wrapper .idea__details__container .overview__display__card .overview__values__content__wrapper .overview__values__displayvalue {
+.main-wrapper .idea__details__container .overview__display__card .overview__values__displayvalue {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,7 +382,7 @@
   color: #151219;
 }
 
-.main-wrapper .idea__details__container .overview__display__card .overview__values__content__wrapper .overview__values__displayvalue .overview__values__notation {
+.main-wrapper .idea__details__container .overview__display__card .overview__values__displayvalue .overview__values__notation {
   font-family: "Rubik";
   font-size: 14px;
   font-weight: 300;
