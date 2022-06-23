@@ -3,6 +3,89 @@
   margin: 0 auto;
 }
 
+.main-wrapper .problem-approach__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: -0.666667px;
+  color: #151219;
+}
+
+.main-wrapper .problem-approach__container h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #151219;
+}
+
+.main-wrapper .problem-approach__container .problem-container,
+.main-wrapper .problem-approach__container .approach-container {
+  width: 50%;
+}
+
+.main-wrapper .problem-approach__container .problem-container div,
+.main-wrapper .problem-approach__container .approach-container div {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #8a898c;
+}
+
+.main-wrapper .problem-approach__container .problem-container {
+  margin-right: 32px;
+}
+
+.main-wrapper .costs-benefits__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #736977;
+}
+
+.main-wrapper .costs-benefits__container div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 25%;
+  height: 76px;
+  padding: 14px 0;
+  border: 1px solid #e3dde6;
+  border-radius: 16px;
+}
+
+.main-wrapper .costs-benefits__container div h5,
+.main-wrapper .costs-benefits__container div p {
+  margin: 0;
+}
+
+.main-wrapper .costs-benefits__container div p {
+  margin-top: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.0433em;
+  color: #151219;
+}
+
+.main-wrapper .costs-benefits__container .rightMargin {
+  margin-right: 24px;
+}
+
 .main-wrapper .idea__profile__main__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
