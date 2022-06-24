@@ -1186,6 +1186,16 @@
 
 .main-wrapper .table-wrapper .value-table .agreed-table {
   width: 100%;
+  border-collapse: collapse;
+}
+
+.main-wrapper .table-wrapper .value-table .agreed-table tr {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.main-wrapper .table-wrapper .value-table .agreed-table th,
+.main-wrapper .table-wrapper .value-table .agreed-table td {
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .main-wrapper .table-wrapper .value-table .agreed-table .cell-wrapper {
@@ -1393,9 +1403,18 @@
           justify-content: flex-start !important;
 }
 
+.main-wrapper .table-wrapper .personnel-table .agreed-table {
+  border-collapse: collapse;
+}
+
+.main-wrapper .table-wrapper .personnel-table .agreed-table tr {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
 .main-wrapper .table-wrapper .personnel-table .agreed-table th,
 .main-wrapper .table-wrapper .personnel-table .agreed-table td {
   text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .main-wrapper .table-wrapper .personnel-table .agreed-table thead tr th {
