@@ -1447,6 +1447,57 @@
   height: auto;
 }
 
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table th,
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table td {
+  text-align: center;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th {
+  min-width: 241px;
+  max-width: 358px;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(2) {
+  min-width: 32px !important;
+  width: 32px !important;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(4) {
+  min-width: 132px !important;
+  width: 132px !important;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(5), .main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(6) {
+  min-width: 100px !important;
+  max-width: 100px !important;
+  width: 100px !important;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(7), .main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(8) {
+  min-width: 207px !important;
+  max-width: 207px !important;
+  width: 207px !important;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th .header-cell-wrapper {
+  padding: 0 !important;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr {
+  height: auto !important;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper p:first-child,
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper div:first-child {
+  text-align: center;
+  width: 100%;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table .input-text-cell {
+  max-width: none;
+  height: auto;
+}
+
 .main-wrapper .table-wrapper .revenues-table .agreed-table th,
 .main-wrapper .table-wrapper .revenues-table .agreed-table td {
   text-align: center;
