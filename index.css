@@ -1604,13 +1604,13 @@
 .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(1) {
   min-width: 452px !important;
   max-width: 499px !important;
-  width: 452px;
+  width: 499px;
 }
 
-.main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(2), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(3), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(4), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(5) {
+.main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(2), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(3), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(4), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(5), .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th:nth-child(6) {
   min-width: 148px !important;
   max-width: 232px !important;
-  width: 148px;
+  width: 232px;
 }
 
 .main-wrapper .table-wrapper .agreements-table .agreed-table thead tr th .header-cell-wrapper {
