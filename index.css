@@ -1543,4 +1543,61 @@
   max-width: none;
   height: auto;
 }
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(1) {
+  min-width: 264px !important;
+  max-width: 264px !important;
+  width: 264px !important;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(2) {
+  min-width: 132px !important;
+  max-width: 132px !important;
+  width: 132px !important;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(2) .header-cell-wrapper div {
+  display: block !important;
+  text-align: center;
+  width: 100%;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(3) {
+  min-width: 672px !important;
+  max-width: 1139px !important;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(4) {
+  min-width: 124px !important;
+  max-width: 124px !important;
+  width: 124px !important;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(4) .header-cell-wrapper {
+  display: block !important;
+  text-align: center;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th .header-cell-wrapper {
+  padding: 0 10px !important;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table tbody tr {
+  height: auto !important;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .overlay-dropdown-trigger {
+  height: auto;
+  width: unset;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .validation-status-container {
+  width: 100%;
+  text-align: center;
+}
+
+.main-wrapper .table-wrapper .risk-table .agreed-table .input-text-cell {
+  max-width: none;
+  height: auto;
+}
 /*# sourceMappingURL=index.css.map */
