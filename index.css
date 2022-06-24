@@ -1556,10 +1556,9 @@
   width: 132px !important;
 }
 
-.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(2) .header-cell-wrapper div {
+.main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(2) .header-cell-wrapper {
   display: block !important;
   text-align: center;
-  width: 100%;
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(3) {
@@ -1618,6 +1617,51 @@
 }
 
 .main-wrapper .table-wrapper .agreements-table .agreed-table tbody tr {
+  height: auto !important;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(1) {
+  min-width: 277px !important;
+  max-width: 744px !important;
+  width: 277px;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(2) {
+  width: 479px;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(3) {
+  width: 98px;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(3) .header-cell-wrapper {
+  display: block !important;
+  text-align: center;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(4) {
+  width: 224px;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(4) .header-cell-wrapper {
+  display: block !important;
+  text-align: center;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(5) {
+  width: 114px;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(5) .header-cell-wrapper {
+  display: block !important;
+  text-align: center;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table thead tr th .header-cell-wrapper {
+  padding: 0 10px !important;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr {
   height: auto !important;
 }
 /*# sourceMappingURL=index.css.map */
