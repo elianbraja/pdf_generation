@@ -1978,6 +1978,7 @@
 
 .main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(2) {
   width: 479px;
+  min-width: 479px;
 }
 
 .main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(3) {
