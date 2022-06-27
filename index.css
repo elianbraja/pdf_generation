@@ -386,7 +386,6 @@
 }
 
 .main-wrapper .idea__team__avatars {
-  padding: 10px;
   border-collapse: collapse;
 }
 
@@ -405,7 +404,7 @@
   width: 100%;
   max-height: 68px;
   margin: 22px;
-  padding: 20px;
+  margin-left: 0;
   position: relative;
   min-width: 300px;
 }
@@ -2128,5 +2127,39 @@
 
 .main-wrapper .table-wrapper .plan-table .agreed-table tbody tr {
   height: auto !important;
+}
+
+.main-wrapper .table-wrapper .legend-table {
+  width: 425px;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #736977;
+}
+
+.main-wrapper .table-wrapper .legend-table .agreed-table thead tr {
+  height: 58px;
+}
+
+.main-wrapper .table-wrapper .legend-table .agreed-table thead tr th:nth-child(1) {
+  width: 122px;
+}
+
+.main-wrapper .table-wrapper .legend-table .agreed-table thead tr th:nth-child(2), .main-wrapper .table-wrapper .legend-table .agreed-table thead tr th:nth-child(3), .main-wrapper .table-wrapper .legend-table .agreed-table thead tr th:nth-child(4) {
+  width: 72px;
+}
+
+.main-wrapper .table-wrapper .legend-table .agreed-table thead tr th:nth-child(5) {
+  width: 87px;
+}
+
+.main-wrapper .table-wrapper .legend-table .agreed-table tbody tr {
+  height: 54px;
+}
+
+.main-wrapper .table-wrapper .legend-table .agreed-table tbody tr td {
+  text-align: center;
 }
 /*# sourceMappingURL=index.css.map */
