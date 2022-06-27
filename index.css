@@ -2131,6 +2131,10 @@
 }
 
 .main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .input-text-cell {
+  height: auto;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td:nth-child(3) .input-text-cell, .main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td:nth-child(4) .input-text-cell {
   text-align: center;
   height: auto;
   max-width: none !important;
