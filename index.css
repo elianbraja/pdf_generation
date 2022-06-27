@@ -10,6 +10,7 @@
   display: flex;
   width: 100%;
   min-width: 1110px;
+  margin-bottom: 32px;
   font-family: "Avenir Next LT Pro";
   font-style: normal;
   font-weight: 600;
