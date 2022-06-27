@@ -62,6 +62,7 @@
           box-sizing: border-box;
   width: 25%;
   min-width: 260px;
+  max-width: 373px;
   height: 76px;
   padding: 14px 0;
   border: 1px solid #e3dde6;
