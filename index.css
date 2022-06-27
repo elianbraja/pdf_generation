@@ -1937,7 +1937,7 @@
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .overlay-dropdown-trigger {
   height: auto;
   max-width: unset;
-  width: 98%;
+  width: unset;
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .validation-status-container {
