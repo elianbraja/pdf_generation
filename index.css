@@ -87,6 +87,301 @@
   margin-right: 24px;
 }
 
+.main-wrapper .idea__profile__main__wrapper-new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 32px 0;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 690px;
+  max-width: 1314px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto !important;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round .avatar-photo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round .text-container {
+  margin-left: 17px;
+  max-width: 90px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round h4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round h5 {
+  font-size: 12px;
+  line-height: 14px;
+  color: #8f8796;
+  margin: 3px 0 0 0;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round .squircle-character {
+  position: relative;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round .squircle-character span {
+  position: absolute;
+  margin-top: 2px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.small-avatar .squircle-character {
+  width: 24px;
+  height: 24px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.small-avatar .squircle-character span {
+  height: 22px;
+  width: 23px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.medium-avatar .squircle-character {
+  width: 40px;
+  height: 40px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.medium-avatar .squircle-character span {
+  height: 40px;
+  width: 40px;
+  font-size: 12px;
+  line-height: 1.1;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.large-avatar .squircle-character {
+  width: 56px;
+  height: 56px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.large-avatar .squircle-character span {
+  height: 56px;
+  width: 56px;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .avatar-round.large-avatar .squircle-character > div {
+  width: unset !important;
+  height: unset !important;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .idea__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 532px;
+  width: 100%;
+  max-height: 64px;
+  height: 100%;
+  min-width: 233px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .idea__content .idea__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .idea__content .idea__header .idea__tag {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #736977;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .idea__content .idea__header .idea__title {
+  margin-left: 14px;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #151219;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .main-inner-container .idea__content .idea__body {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.15px;
+  color: #736977;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-value-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 20px;
+  height: 56px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-value-card .estimated-value-card__indicator {
+  width: 4px;
+  border-radius: 8px;
+  background-color: #05a69e;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-value-card .description {
+  width: 132px;
+  padding-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-value-card__title {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.15px;
+  color: #736977;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-value-card__value {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+  color: #151219;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-risk-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 56px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-risk-card .estimated-risk-card__indicator {
+  width: 4px;
+  border-radius: 8px;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-risk-card .description {
+  width: 101.71px;
+  padding-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-risk-card__title {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.15px;
+  color: #736977;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.main-wrapper .idea__profile__main__wrapper-new .secondary-inner-container .estimated-risk-card__value {
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.15px;
+  color: #151219;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 10px;
+}
+
 .main-wrapper .idea__profile__main__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
