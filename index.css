@@ -2130,6 +2130,12 @@
   height: auto !important;
 }
 
+.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .input-text-cell {
+  text-align: center;
+  height: auto;
+  max-width: none !important;
+}
+
 .main-wrapper .table-wrapper .legend-table {
   width: 425px;
   font-family: "Avenir Next LT Pro";
