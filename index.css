@@ -1856,10 +1856,16 @@
   display: flex;
 }
 
+.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container .placeholder-container {
+  padding: 8px;
+  margin: 12px 0;
+}
+
 .main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
   text-align: center;
   width: 100%;
   word-break: break-word;
+  max-width: 580px;
 }
 
 .main-wrapper .table-wrapper .personnel-table .agreed-table .input-text-cell {
