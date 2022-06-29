@@ -1792,6 +1792,25 @@
   text-overflow: ellipsis;
 }
 
+.main-wrapper .table-wrapper .value-table .agreed-table tbody tr td .cell-wrapper .validator-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-wrapper .table-wrapper .value-table .agreed-table tbody tr td .cell-wrapper .validator-container .placeholder-container {
+  padding: 8px;
+  margin: 12px 0;
+}
+
+.main-wrapper .table-wrapper .value-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+  max-width: 270px;
+  margin-right: 10px;
+}
+
 .main-wrapper .table-wrapper .value-table .agreed-table tbody tr:hover {
   background-color: #f6f2f8;
   -webkit-transition: 0.15s ease-in-out;
