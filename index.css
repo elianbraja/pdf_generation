@@ -13,11 +13,6 @@
   color: #736977;
 }
 
-.main-header h4,
-.main-header h5 {
-  margin: 20px 0px;
-}
-
 .main-header h5 {
   margin-left: 32px;
   font-weight: 600;
@@ -1228,7 +1223,7 @@
   width: 100px !important;
 }
 
-.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(8) {
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(7), .main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(8) {
   min-width: 207px !important;
   max-width: 207px !important;
   width: 207px !important;
