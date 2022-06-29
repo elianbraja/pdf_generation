@@ -1862,6 +1862,11 @@
   height: auto !important;
 }
 
+.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
+  text-align: center;
+  word-break: break-word;
+}
+
 .main-wrapper .table-wrapper .personnel-table .agreed-table .input-text-cell {
   max-width: none;
   height: auto;
@@ -1911,6 +1916,10 @@
 .main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper div:first-child {
   text-align: center;
   width: 100%;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
+  min-width: 100px;
 }
 
 .main-wrapper .table-wrapper .non-personnel-table .agreed-table .input-text-cell {
