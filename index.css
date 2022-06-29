@@ -1193,7 +1193,8 @@
 .main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
   text-align: center;
   word-break: break-word;
-  max-width: 250px !important;
+  max-width: none !important;
+  width: 100%;
 }
 
 .main-wrapper .table-wrapper .personnel-table .agreed-table .input-text-cell {
