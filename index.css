@@ -1856,10 +1856,10 @@
   display: flex;
 }
 
-.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p:first-child,
-.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container div:first-child {
+.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
   text-align: center;
   width: 100%;
+  word-break: break-word;
 }
 
 .main-wrapper .table-wrapper .personnel-table .agreed-table .input-text-cell {
