@@ -1228,7 +1228,7 @@
   width: 100px !important;
 }
 
-.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(7), .main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(8) {
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table thead tr th:nth-child(8) {
   min-width: 207px !important;
   max-width: 207px !important;
   width: 207px !important;
@@ -1246,10 +1246,6 @@
 .main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper div:first-child {
   text-align: center;
   width: 100%;
-}
-
-.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
-  min-width: 100px;
 }
 
 .main-wrapper .table-wrapper .non-personnel-table .agreed-table .input-text-cell {
