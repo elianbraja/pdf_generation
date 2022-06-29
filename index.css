@@ -15,7 +15,7 @@
 
 .main-header h4,
 .main-header h5 {
-  margin: 0;
+  margin: 20px 0px;
 }
 
 .main-header h5 {
@@ -1793,22 +1793,15 @@
 }
 
 .main-wrapper .table-wrapper .value-table .agreed-table tbody tr td .cell-wrapper .validator-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .main-wrapper .table-wrapper .value-table .agreed-table tbody tr td .cell-wrapper .validator-container .placeholder-container {
-  padding: 8px;
-  margin: 12px 0;
-}
-
-.main-wrapper .table-wrapper .value-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
-  text-align: center;
-  width: 100%;
-  word-break: break-word;
-  max-width: 270px;
-  margin-right: 10px;
+  margin: 0 auto !important;
+  margin-bottom: 5px !important;
 }
 
 .main-wrapper .table-wrapper .value-table .agreed-table tbody tr:hover {
@@ -1869,25 +1862,6 @@
   height: auto !important;
 }
 
-.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container .placeholder-container {
-  padding: 8px;
-  margin: 12px 0;
-}
-
-.main-wrapper .table-wrapper .personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
-  text-align: center;
-  width: 100%;
-  word-break: break-word;
-  max-width: 270px;
-  margin-right: 10px;
-}
-
 .main-wrapper .table-wrapper .personnel-table .agreed-table .input-text-cell {
   max-width: none;
   height: auto;
@@ -1939,18 +1913,6 @@
   width: 100%;
 }
 
-.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container .placeholder-container {
-  margin: 0 auto;
-  margin-bottom: 5px;
-}
-
 .main-wrapper .table-wrapper .non-personnel-table .agreed-table .input-text-cell {
   max-width: none;
   height: auto;
@@ -1995,10 +1957,6 @@
 .main-wrapper .table-wrapper .revenues-table .agreed-table tbody tr td .cell-wrapper div:first-child {
   text-align: center;
   width: 100%;
-}
-
-.main-wrapper .table-wrapper .revenues-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
-  max-width: 200px;
 }
 
 .main-wrapper .table-wrapper .revenues-table .agreed-table .input-text-cell {
@@ -2143,18 +2101,6 @@
   word-break: break-word;
 }
 
-.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .validator-container {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .validator-container .placeholder-container {
-  margin: 0 auto !important;
-  margin-bottom: 5px !important;
-}
-
 .main-wrapper .table-wrapper .legend-table {
   width: 425px;
   font-family: "Avenir Next LT Pro";
@@ -2196,5 +2142,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: blue;
+  padding-top: 20px;
+}
+
+.section_title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #151219;
+}
+
+.footer-logo {
+  width: 100px;
+  height: 14px;
 }
 /*# sourceMappingURL=index.css.map */
