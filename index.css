@@ -1865,7 +1865,8 @@
   text-align: center;
   width: 100%;
   word-break: break-word;
-  max-width: 280px;
+  max-width: 270px;
+  margin-right: 10px;
 }
 
 .main-wrapper .table-wrapper .personnel-table .agreed-table .input-text-cell {
