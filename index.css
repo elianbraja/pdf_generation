@@ -1939,6 +1939,18 @@
   width: 100%;
 }
 
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-wrapper .table-wrapper .non-personnel-table .agreed-table tbody tr td .cell-wrapper .validator-container .placeholder-container {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
 .main-wrapper .table-wrapper .non-personnel-table .agreed-table .input-text-cell {
   max-width: none;
   height: auto;
@@ -1983,6 +1995,10 @@
 .main-wrapper .table-wrapper .revenues-table .agreed-table tbody tr td .cell-wrapper div:first-child {
   text-align: center;
   width: 100%;
+}
+
+.main-wrapper .table-wrapper .revenues-table .agreed-table tbody tr td .cell-wrapper .validator-container p {
+  max-width: 200px;
 }
 
 .main-wrapper .table-wrapper .revenues-table .agreed-table .input-text-cell {
