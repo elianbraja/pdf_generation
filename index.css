@@ -1,3 +1,34 @@
+.main-header {
+  max-width: 1755px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #736977;
+}
+
+.main-header h4,
+.main-header h5 {
+  margin: 0;
+}
+
+.main-header h5 {
+  margin-left: 32px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #ffb612;
+  color: #f57f42;
+  color: #824bb0;
+  color: #1a677a;
+  color: #00c0b5;
+}
+
 .main-wrapper {
   max-width: 1755px;
   width: 100%;
@@ -1236,6 +1267,32 @@
   margin-top: 32px;
 }
 
+.main-wrapper .table-wrapper .placeholder-container {
+  padding: 4px 8px;
+  width: 84px;
+  height: 20px;
+  background: #f6f2f8;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  font-family: "Avenir Next LT Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.2px;
+  color: #736977;
+}
+
 .main-wrapper .table-wrapper .opportunity-table .cell-wrapper .target-date .value-text {
   text-align: center;
   width: 100%;
@@ -2070,5 +2127,14 @@
 
 .main-wrapper .table-wrapper .legend-table .agreed-table tbody tr td {
   text-align: center;
+}
+
+.main-footer {
+  max-width: 1755px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=index.css.map */
