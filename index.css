@@ -2151,8 +2151,8 @@
 }
 
 .main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .validator-container .placeholder-container {
-  margin: 0 auto;
-  margin-bottom: 5px;
+  margin: 0 auto !important;
+  margin-bottom: 5px !important;
 }
 
 .main-wrapper .table-wrapper .legend-table {
