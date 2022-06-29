@@ -2143,6 +2143,18 @@
   word-break: break-word;
 }
 
+.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .validator-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-wrapper .table-wrapper .plan-table .agreed-table tbody tr td .validator-container .placeholder-container {
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
 .main-wrapper .table-wrapper .legend-table {
   width: 425px;
   font-family: "Avenir Next LT Pro";
