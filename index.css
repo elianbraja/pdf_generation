@@ -1342,6 +1342,11 @@
   max-width: fit-content;
 }
 
+.main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .placeholder-container {
+  margin: 0 auto !important;
+  margin-bottom: 5px !important;
+}
+
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .overlay-dropdown-trigger {
   height: auto;
   max-width: unset;
@@ -1377,6 +1382,10 @@
 
 .main-wrapper .table-wrapper .agreements-table .agreed-table tbody tr {
   height: auto !important;
+}
+
+.main-wrapper .table-wrapper .agreements-table .agreed-table tbody tr td .cell-wrapper .placeholder-container {
+  margin-left: 10px;
 }
 
 .main-wrapper .table-wrapper .plan-table .agreed-table thead tr th:nth-child(1) {
