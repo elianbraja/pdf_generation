@@ -1342,6 +1342,10 @@
   max-width: fit-content;
 }
 
+.main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .avatar-round .text-container h4 {
+  word-break: break-word;
+}
+
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .placeholder-container {
   margin-left: 10px;
 }
