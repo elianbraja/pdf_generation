@@ -1296,9 +1296,9 @@
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(1) {
-  min-width: 300px !important;
-  max-width: 300px !important;
-  width: 300px !important;
+  min-width: 310px !important;
+  max-width: 310px !important;
+  width: 310px !important;
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(2) {
