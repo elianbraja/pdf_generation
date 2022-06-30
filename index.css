@@ -1296,9 +1296,9 @@
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(1) {
-  min-width: 310px !important;
-  max-width: 310px !important;
-  width: 310px !important;
+  min-width: 550px !important;
+  max-width: 550px !important;
+  width: 350px !important;
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table thead tr th:nth-child(2) {
@@ -1343,8 +1343,7 @@
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .placeholder-container {
-  margin: 0 auto !important;
-  margin-bottom: 5px !important;
+  margin-left: 10px;
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .overlay-dropdown-trigger {
