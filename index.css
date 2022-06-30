@@ -1337,9 +1337,7 @@
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .avatar-round .text-container {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  width: 100%;
 }
 
 .main-wrapper .table-wrapper .risk-table .agreed-table tbody tr td .cell-wrapper .avatar-round .text-container h4 {
